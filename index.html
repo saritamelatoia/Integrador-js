@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Sea Jewerly</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="aboutus" href="/css/aboutus.css">
+<!-- <link rel="aboutus" href="/css/main.css">-->
+</head>
+<body>
+    <!--NAVBAR-->
+            <header>
+                <nav class="navbar">
+                    <img class="nav-logo" src="./img-productos/LOGO.png">
+                    <ul class="nav-list">
+                        <li class="nav-list-texto"><a href="#">Home</a></li>
+                        <li class="nav-list-texto"><a href="#">About Us</a></li>
+                        <li class="nav-list-texto"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+    <!--HERO IMAGEN-->
+            <div class="hero-container">
+                <div class="wrap">
+                    <div class="box">
+                        <h1>Welcome to Green Sea Jewerly</h1>
+                        <p>From our hands to you</p>
+                        <a href="/aboutus.html" target="_blank"><input type="button" class="hero-btn" value="About Us"></a>
+                    </div>
+                </div>
+            </div>
+    <div class="wrapper"> 
+        <aside>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-categoria active"><i class="fa-solid fa-arrow-right"></i>Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="anillos" class="boton-categoria"><i class="fa-solid fa-water"></i>Anillos</button>
+                    </li>
+                    <li>
+                        <button id="aros" class="boton-categoria"><i class="fa-solid fa-water"></i>Aros</button>
+                    </li>
+                    <li>
+                        <button id="collares" class="boton-categoria"><i class="fa-solid fa-water"></i>Collares</button>
+                    </li>
+                    <li>
+                        <button id="relojes" class="boton-categoria"><i class="fa-solid fa-water"></i>Relojes</button>
+                    </li>
+                    <li>
+                        <a class="boton-carrito" id="carrito" href="./carrito.html" alt="carrito de compras">
+                        <i class="fa-solid fa-cart-shopping"></i>Carrito<span class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">® Green Sea Jewerly</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 id="titulo-principal"  class="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!--Esto se va a rellenar con js-->
+        </main>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="https://kit.fontawesome.com/138044b23c.js" crossorigin="anonymous"></script>
+</body>
+</html>
