@@ -241,3 +241,10 @@ main {
     color:var(--clr-verdeoscuro);
 }
 
+/* MENU HAMBURGUESA */
+
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
