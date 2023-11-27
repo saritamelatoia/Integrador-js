@@ -241,10 +241,36 @@ main {
     color:var(--clr-verdeoscuro);
 }
 
-/* MENU HAMBURGUESA */
-
-.abrir-menu,
-.cerrar-menu {
-    display: none;
+/* FOOTER */
+.footer {
+    background-color: var(--clr-beige);
+    padding: 30px;
 }
 
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    
+}
+
+
+.logo-footer {
+align-self:center;
+}
+
+.img-footer{
+align-self: center;
+}
+
+.info-footer1{
+align-self: first baseline;
+}
+
+.visit-p-footer{
+    color: var(--clr-marroncito);
+}
+
+.info-footer2{
+align-self: first baseline;
+}
