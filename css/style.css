@@ -124,7 +124,7 @@ body{
 .hero-btn{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff4500;
+    background-color: var(--clr-marroncito);
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -232,6 +232,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
+    overflow:scroll;
 }
 
 
@@ -245,6 +246,7 @@ main {
     flex-direction: column;
     gap: .25rem;
     align-items: center;
+
 }
 
 .producto-agregar {
@@ -280,38 +282,44 @@ main {
 
 
 /* FOOTER */
-.footer {
+footer {
     background-color: var(--clr-beige);
+    color: var(--clr-marroncito);
     padding: 30px;
 }
 
-.container-footer{
+.footer-content {
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: var(--clr-marroncito);
+    align-items: center;
 }
 
-.logo-footer {
-align-self:center;
+.footer-section {
+    flex: 1;
+    margin: 0 20px;
 }
 
-.img-footer{
-align-self: center;
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: var(--clr-marroncito);
 }
 
-.info-footer1{
-align-self: first baseline;
+.footer-section p {
+    font-size: 1em;
+    color: var(--clr-marroncito);
 }
 
-.visit-p-footer{
-color: var(--clr-marroncito);
+.texto-footer{
+    color: var(--clr-marroncito);
 }
 
-.info-footer2{
-align-self: first baseline;
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
 }
-
 
 
 /*** MEDIA QUERIES ***/
@@ -328,7 +336,6 @@ align-self: first baseline;
 
 }
 
-    
 .hero-container .wrap .box {
 margin: 0 auto;
 }
@@ -474,8 +481,4 @@ background-color: var(--clr-cremita);
         gap: 90px;
     }
 
-    .producto-img{
-        min-height: 100%;
-        max-height: 100%;
-    }
 }
