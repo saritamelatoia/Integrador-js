@@ -123,15 +123,7 @@ if (productosEnCarritoLS) {
 
 // MENU HAMBURGUESA //
 
-const button = document.querySelector('.button')
-const nav = document.querySelector('.nav')
-
-button.addEventListener('click',()=>{
-    nav.classList.toggle('activo')
-})
-
-
-/* jQuery : Enlazar jQuery*/
-/* $('.button').on('click',()=>{
-    $('.nav').toggleClass('activo')
-}) */
+function toggleMenu() {
+    const navMenu = document.querySelector('.navbar');
+    navMenu.classList.toggle('show');
+}
