@@ -147,7 +147,8 @@ aside {
     display: none;
 }
 
-/*** MEDIA QUERIES ***/
+
+/*** MEDIAQUERIESSSSSSSS ***/
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
@@ -254,4 +255,3 @@ aside {
         grid-template-columns: 1fr;
     }
 }
-

@@ -10,6 +10,12 @@ const botonVaciar = document.querySelector("#carrito-acciones-vaciar");
 const contenedorTotal = document.querySelector("#total");
 const botonComprar = document.querySelector("#carrito-acciones-comprar");
 
+function toggleMenu() {
+    const navMenu = document.querySelector("#open-menu");
+    navMenu.classList.toggle('show');
+}
+
+
 
 function cargarProductosCarrito() {
     if (productosEnCarrito && productosEnCarrito.length > 0) {
